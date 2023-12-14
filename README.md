@@ -1,5 +1,6 @@
 Drone Delivery System - Drone and Flight Management
-I have both of the Drone server and flight management server inside the same directory in two folders.
+
+ I have both of the Drone server and flight management server inside the same directory in two folders.
 
 Drone Service
 The Drone Service is a Spring Boot application that manages drones. It includes functionalities to perform CRUD operations on drones, and it exposes a RESTful API for interaction. The service is built using Java and Spring Boot.
@@ -16,10 +17,13 @@ DroneApplication: The main class to run the Spring Boot application.
 
 
 To run project, clone the repository from
+
 https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/tree/main/Drone?ref_type=heads
+
 Open the project in your preferred Java IDE.
 Run the DroneApplication class to start the Drone Service.
 Explore the API using tools like Postman or curl. 
+
 For the curl http://localhost:8081/dronora/drones
 [{"id":"123","name":"Vim-v2","capacity":320}]% 
 
