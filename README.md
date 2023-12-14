@@ -60,10 +60,15 @@ Fleet: Represents the data model for a fleet, including attributes such as targe
 FleetApplication: The main class to run the Spring Boot application.
 
 To run project, clone the repository from
+
  https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/blob/main/fleet/src/main/java/com/example/fleet/Fleet.java?ref_type=heads
+
+
 Open the project in your preferred Java IDE.
 Run the FleetApplication class to start the Fleet Service.
-Explore the API using tools like Postman or curl.curl http://localhost:8090/dronora/flights/ping
+Explore the API using tools like Postman or curl.
+
+curl http://localhost:8090/dronora/flights/ping
 
 API Endpoints
 GET /dronora/flights/ping: Test the availability of the fleet service.
