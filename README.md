@@ -1,4 +1,3 @@
-
 Drone Delivery System - Drone and Flight Management
 I have both of the Drone server and flight management server inside the same directory in two folders.
 
@@ -15,8 +14,9 @@ Drone: Represents the data model for a drone, including attributes such as drone
 
 DroneApplication: The main class to run the Spring Boot application.
 
-Getting Started
-Clone the repository from https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/tree/main/Drone?ref_type=heads
+
+To run project, clone the repository from
+https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/tree/main/Drone?ref_type=heads
 Open the project in your preferred Java IDE.
 Run the DroneApplication class to start the Drone Service.
 Explore the API using tools like Postman or curl. 
@@ -46,6 +46,7 @@ Fleet Service
 The Fleet Service is a Spring Boot application responsible for managing drone flights. It communicates with the Drone Service to retrieve information about available drones and to order flights. The service is built using Java and Spring Boot.
 
 Key Components
+
 FleetController: Handles HTTP requests related to fleet operations, including a ping test and ordering a flight.
 
 FleetService: Provides business logic for fleet-related operations. Communicates with the Drone Service to retrieve drone information and order flights.
@@ -54,8 +55,8 @@ Fleet: Represents the data model for a fleet, including attributes such as targe
 
 FleetApplication: The main class to run the Spring Boot application.
 
-To run project
-Clone the repository from https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/blob/main/fleet/src/main/java/com/example/fleet/Fleet.java?ref_type=heads
+To run project, clone the repository from
+ https://gitlab.tamk.cloud/sw-architecturesdesign-2023-srijana-poudel/dronefleetrestserverandclient/-/blob/main/fleet/src/main/java/com/example/fleet/Fleet.java?ref_type=heads
 Open the project in your preferred Java IDE.
 Run the FleetApplication class to start the Fleet Service.
 Explore the API using tools like Postman or curl.curl http://localhost:8090/dronora/flights/ping
